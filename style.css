@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main{
+    background-color: white;
+    margin: 100px 200px;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(250, 228, 211);
+
+}
+
+img{
+    width: 92%;
+    height: 60%;
+    margin: 40px 40px 20px 40px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+.simple{
+    padding: 0px 50px 0px 50px;
+}
+
+.simple h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.simple p{
+    font-family: "Outfit", sans-serif;
+    font-size: 19.5px;
+    margin-bottom: 0px;
+    line-height: 2.0rem;
+}
+
+.Time{
+    margin: 50px 50px 50px 50px;
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    background-color:rgb(255, 248, 243);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Time h3{
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px;
+}
+
+.Time ul{
+    padding: 0px 20px 20px 38px;
+    margin: 0px 10px;
+}
+
+.Time ul li{
+    text-indent: 1.5em;
+}
+
+.Time ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+
+.Time li{
+    font-size: 18px;
+    line-height: 2.5rem;
+}
+
+.ingredient{
+    padding: 0px 50px 0px 50px;
+    border-bottom: 1.5px solid rgb(210, 183, 183);
+    /* border: 1.5px solid rgb(210, 183, 183); */
+}
+
+.ingredient h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: hsl(14, 45%, 36%)
+}
+.ingredient ul{
+    padding: 0px 20px 20px 26px;
+    /* margin: 0px 10px; */
+}
+
+.ingredient ul li{
+    padding: 10px;
+    text-indent: 0.9em;
+    font-family: "Outfit", sans-serif;
+    font-size: 19.5px;
+}
+
+.ingredient ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction{
+    padding: 0px 50px 0px 50px;
+    margin: 0px 0px 40px 0px;
+    
+}
+.instruction{
+    box-sizing: border-box;
+    border-bottom: 1.5px solid rgb(210, 183, 183);
+}
+.instruction h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: hsl(14, 45%, 36%)
+}
+.instruction ol{
+    padding: 0px 20px 20px 26px;
+}
+
+.instruction ol li{
+    padding: 10px;
+    /* text-indent: 0.9em; */
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    line-height: 2.0rem;
+}
+
+.instruction ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+.nutrition{
+    padding: 0px 50px 0px 50px;
+}
+
+.nutrition h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: hsl(14, 45%, 36%)
+}
+.nutrition p{
+    padding: 0px 20px 0px 0px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+}
+
+.nutrition table{
+    width: 95%;
+    margin-left: 35px;
+    margin-top: 0px;
+}
+.table-container th, td{
+    margin: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.table-container .bold{
+    color: hsl(14, 45%, 36%)
+}
+ table tr .remove{
+    border: 0;
+}
+
+@media screen and (max-width: 375px){
+    main{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    img{
+        width: 23.5rem;
+        height: 12rem;
+        border-radius: 0px;
+        margin: 0px;
+    }
+    .simple{
+        padding: 0px 30px 0px 30px;
+    }
+    .simple h1{
+        font-size: 35px;
+        line-height: 1.0em;
+    }
+    .simple p{
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .Time{
+        margin: 15px 30px 15px 30px;
+    }
+    .Time h3{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .Time ul{
+        margin: 0px;
+        padding-left: 2rem;
+    }
+    .Time ul li{
+        font-size: 16px;
+        text-indent: 0;
+        line-height: 1.8em;
+    }
+    .ingredient{
+        padding: 0px 30px 0px 30px;
+    }
+    .ingredient h2{
+        font-size: 30px;
+    }
+    .ingredient ul li{
+        text-indent: 0em;
+        font-size: 16px;
+    }
+    .instruction{
+        padding: 0px 30px 0px 30px;
+    }
+    .instruction h2{
+        font-size: 30px;
+    }
+    .instruction ol{
+        padding: 0px 0px 0px 29px; 
+        font-size: 16px;
+    }
+    .instruction ol li{
+        /* padding: 0px 0px 0px 29px;  */
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .nutrition{
+        padding: 0px 30px 0px 30px;
+    }
+    .nutrition h2{
+        font-size: 30px;
+    }
+    .nutrition p{
+        font-size: 16px;
+    }
+    .nutrition table{
+        margin-left: 0px
+    }
+    .table-container tr td{
+        font-size: 16px;
+    }
+}
